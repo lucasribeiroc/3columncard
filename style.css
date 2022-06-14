@@ -44,7 +44,7 @@ button {
 .sedans-title {
   font-family: "Big Shoulders Display", sans-serif;
   font-weight: 700;
-  font-size: 2.4rem;
+  font-size: 2rem;
   text-transform: uppercase;
   margin: 30px 0px 15px 40px;
 }
@@ -97,7 +97,7 @@ button {
 .suv-title {
   font-family: "Big Shoulders Display", sans-serif;
   font-weight: 700;
-  font-size: 2.4rem;
+  font-size: 2rem;
   text-transform: uppercase;
   margin: 30px 0px 15px 40px;
 }
@@ -146,7 +146,7 @@ button {
 .luxury-title {
   font-family: "Big Shoulders Display", sans-serif;
   font-weight: 700;
-  font-size: 2.4rem;
+  font-size: 2rem;
   text-transform: uppercase;
   margin: 30px 0px 15px 40px;
 }
@@ -170,10 +170,23 @@ button {
   font-size: 15px;
   padding: 16px 31px;
   text-decoration: none;
+  border: 1px solid hsl(0, 0%, 95%);
 }
 
 .luxury-more:hover {
   background-color: hsl(179, 100%, 13%);
   color: hsl(0, 0%, 95%);
   border: 1px solid hsl(0, 0%, 95%);
+}
+
+.attribution {
+  text-align: center;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1rem;
+  color: hsl(179, 100%, 13%);
+}
+
+.footer {
+  text-decoration: none;
+  color: hsl(31, 77%, 52%);
 }
