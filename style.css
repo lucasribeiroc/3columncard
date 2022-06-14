@@ -6,8 +6,13 @@ body {
   background-color: hsl(0, 0%, 95%);
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
 p,
-img,
 h1 {
   display: block;
 }
@@ -189,4 +194,48 @@ button {
 .footer {
   text-decoration: none;
   color: hsl(31, 77%, 52%);
+}
+
+@media (max-width: 1000px) {
+  .container {
+    grid-template-columns: 1fr;
+    width: 90%;
+  }
+
+  .sedans {
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .luxury {
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .attribution {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 400px) {
+  .container {
+    grid-template-columns: 1fr;
+    width: 90%;
+  }
+
+  .sedans {
+    border-radius: 10px 10px 0px 0px;
+  }
+
+  .luxury {
+    border-radius: 0px 0px 10px 10px;
+  }
+
+  .attribution {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 }
